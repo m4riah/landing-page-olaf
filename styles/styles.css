@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: #bdd1de;
     color:white;
     font-family: 'Poppins', sans-serif;
     max-width: 1200px;
@@ -28,16 +28,16 @@ a {
     color: white;
 }
 a:hover {
-    color: rgb(132, 13, 201);
+    color: #4180ab;
     transition: 0.3s all;
 }
 #inscreva-se-btn {
-    border: 2px solid rgb(132, 13, 201);
+    border: 2px solid #4180ab;
     padding: 10px;
     border-radius: 20px;
 }
 #inscreva-se-btn:hover {
-    background-color: rgb(132, 13, 201);
+    background-color: #4180ab;
     color: white;
 }
 
@@ -57,18 +57,24 @@ h2 {
     font-family: poppinsmedium;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 span {
-    color:rgb(132, 13, 201);
+    color:#4180ab;
 }
 
 p {
+    font-size: 20px;
     line-height: 20px;
     max-width: 500px;
     font-family: poppinslight;
+    color: #4180ab;
 }
 
 img {
-    width: 580px;
+    width: 550px;
 }
 
 form {
@@ -77,16 +83,16 @@ form {
     width: 70%;
 }
 
-form [type="submit"]:hover {
-    cursor: pointer;
-}
 
 form [type="submit"]{
     height: 50px;
     width: 50%;
-    background-color: rgb(132, 13, 201);
+    background-color: #4180ab;
     color: white;
     font-weight: bold;
+}
+form [type="submit"]:hover {
+    cursor: pointer;
 }
 
 input {
