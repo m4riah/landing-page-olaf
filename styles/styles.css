@@ -75,6 +75,8 @@ p {
 
 img {
     width: 550px;
+    animation: moveimg 2s infinite alternate ease-in-out;
+
 }
 
 form {
@@ -87,12 +89,16 @@ form {
 form [type="submit"]{
     height: 50px;
     width: 50%;
-    background-color: #4180ab;
+    background-color: #88abc2;
     color: white;
     font-weight: bold;
 }
 form [type="submit"]:hover {
     cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: white;
+    color: #88abc2;
 }
 
 input {
@@ -102,4 +108,10 @@ input {
     border-radius: 20px;
     border: none;
     font-size: 20px;
+}
+
+@keyframes moveimg {
+    From {
+        transform: translate(-2%, -2%) rotate(5deg);
+    }
 }
